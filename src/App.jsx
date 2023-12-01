@@ -2,7 +2,7 @@ import HeaderBook from "./components/shared/Header";
 import Route from "./components/shared/Route";
 import SideBar from "./components/shared/SideBar";
 import BookStore from "./pages/BookStore";
-import UserAlbum from "./pages/userAlbum";
+import UserAlbum from "./pages/UserAlbum";
 
 function App() {
   return (
