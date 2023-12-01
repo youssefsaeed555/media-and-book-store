@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { faker } from "@faker-js/faker";
 import axios from "axios";
-const BASEURL = "https://rtk-apis.onrender.com";
+const BASEURL = "https://rtk-apis.onrender.com/users";
 
 export const createUser = createAsyncThunk(
   "users/addUser",

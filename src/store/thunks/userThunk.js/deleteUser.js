@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const BASEURL = "https://rtk-apis.onrender.com";
+const BASEURL = "https://rtk-apis.onrender.com/users";
 
 export const deleteUser = createAsyncThunk(
   "users/deleteUser",
