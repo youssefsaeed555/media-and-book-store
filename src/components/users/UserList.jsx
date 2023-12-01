@@ -32,7 +32,6 @@ function UserList() {
   } else if (isLoadingUserList) {
     content = <Skelton times={6} className="w-fill h-10" />;
   } else {
-    console.log(user);
     content = user?.users?.map((user) => (
       <UserListItems user={user} key={user.id} />
     ));
